@@ -16,6 +16,10 @@ export default {
       todoTasks: [],
     }
   },
+  // mounted() {
+  //   console.log('mounted');
+  //   this.$router.push('/login');
+  // },
   methods: {
     addTodoTask() {
       this.todoTasks.push({

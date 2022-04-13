@@ -1,8 +1,8 @@
 <template>
   <form>
-    <input v-model="$props.checked" type="checkbox" />
-    <input v-model="$props.title" type="text" placeholder="Title" />
-    <input v-model="$props.description" type="text" placeholder="Description" />
+    <input :checked="$props.checked" type="checkbox" />
+    <input :checked="$props.title" type="text" placeholder="Title" />
+    <input :checked="$props.description" type="text" placeholder="Description" />
   </form>
 </template>
 
